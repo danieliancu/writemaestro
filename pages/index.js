@@ -7,7 +7,7 @@ export default function Home() {
     <div className="p-0 md:p-6 min-h-screen bg-gray-100 flex flex-col items-center" style={{ backgroundImage:"url('/116808.jpg')", backgroundSize: "cover", backgroundPosition:"top" }}>
       <Head>
         <title>WriteMaestro</title>
-        <meta name="description" content="Interactive English training for medical professionals" />
+        <meta name="description" content="Interactive English Writing training" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
