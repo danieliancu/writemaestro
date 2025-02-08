@@ -171,27 +171,24 @@ export default function MedicalLesson() {
 
   return (
     <div className="max-w-2xl mx-auto p-0 sm:p-6 bg-white rounded-md sm:shadow-md">
-      <h1 className="text-2xl font-bold text-center mt-0 mb-6">
-        🩺 WriteMaestro
-      </h1>
 
       {/* === LESSON NAVIGATION === */}
-      <div className="flex justify-between mb-4">
+      <div className="md:flex flex-row justify-between mb-4">
         <button
           onClick={() => setLessonId((prev) => Math.max(prev - 1, 1))}
           disabled={lessonId === 1}
-          className={`px-4 py-2 rounded bg-gray-200 hover:bg-gray-300 ${
+          className={`px-4 py-2 rounded bg-gray-200 hover:bg-gray-300 md:w-1/3 w-1/2 ${
             lessonId === 1 ? "opacity-50 cursor-not-allowed" : ""
           }`}
         >
-          ◀ Previous Level
+          ◀ Prev Level
         </button>
         <button
           onClick={() =>
             setLessonId((prev) => Math.min(prev + 1, lessonData.length))
           }
           disabled={lessonId === lessonData.length}
-          className={`px-4 py-2 rounded bg-gray-200 hover:bg-gray-300 ${
+          className={`px-4 py-2 rounded bg-gray-200 hover:bg-gray-300 w-1/2 md:w-1/3 ${
             lessonId === lessonData.length
               ? "opacity-50 cursor-not-allowed"
               : ""
@@ -204,7 +201,7 @@ export default function MedicalLesson() {
       {/* === LESSON TITLE & TOPIC === */}
       {lessonData[lessonId - 1] &&
         lessonData[lessonId - 1][`lesson_${lessonId}`] && (
-          <div className="mb-4">
+          <div className="mt-8">
             <h3 className="text-xl font-semibold">
               {lessonData[lessonId - 1][`lesson_${lessonId}`].title}
             </h3>
@@ -239,11 +236,11 @@ export default function MedicalLesson() {
       {/* === SCENARIO DISPLAY & ANSWER SUBMISSION === */}
       <div className="border border-black rounded p-5 mt-8 inline-block w-full">
         {/* SCENARIO NAVIGATION */}
-        <div className="flex justify-between mb-4">
+        <div className="flex-row md:flex justify-between mb-4">
           <button
             onClick={() => setScenarioIndex((prev) => Math.max(prev - 1, 0))}
             disabled={scenarioIndex === 0}
-            className={`px-4 py-2 rounded bg-gray-300 hover:bg-gray-400 ${
+            className={`px-4 py-2 rounded bg-gray-300 hover:bg-gray-400 w-1/7 ${
               scenarioIndex === 0 ? "opacity-50 cursor-not-allowed" : ""
             }`}
           >
@@ -256,7 +253,7 @@ export default function MedicalLesson() {
               )
             }
             disabled={scenarioIndex >= scenarios.length - 1}
-            className={`px-4 py-2 rounded bg-gray-300 hover:bg-gray-400 ${
+            className={`px-4 py-2 rounded bg-gray-300 hover:bg-gray-400 w-1/7 ${
               scenarioIndex >= scenarios.length - 1
                 ? "opacity-50 cursor-not-allowed"
                 : ""
@@ -281,6 +278,7 @@ export default function MedicalLesson() {
 
         {/* TEXTAREA FOR THE USER’S ANSWER */}
         <textarea
+          style= {{ height: "215px" }}
           className="w-full p-2 border rounded mb-4"
           placeholder="Type your response..."
           value={studentAnswers[`${lessonId}-${scenarioIndex}`] || ""}

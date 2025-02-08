@@ -8,6 +8,12 @@ body {
   font-family: Poppins, sans-serif;
 }
 
+.logo {
+  left:100px;
+  position: fixed;
+  width:200px;
+}
+
 /* Containere și layout */
 .container {
   max-width: 700px;
@@ -154,7 +160,17 @@ p {
 
 
 
+@media screen and (max-width: 1000px) {
+  .logo {
+    position: relative;
+    left: 0;
+    width: 150px;
+  }
+}
+
+
 @media screen and (max-width: 480px) {
+
   .flex {
     flex-direction: column;
   }

@@ -12,6 +12,7 @@ export default function Home() {
       </Head>
 
       <main className="w-full max-w-2xl p-6 bg-white sm:shadow-md sm:rounded-lg">
+        <img src="/logo.png" alt="WriteMaestro" className="mx-auto logo" />
         <MedicalLesson />
       </main>
     </div>
