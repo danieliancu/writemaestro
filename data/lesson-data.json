@@ -1,0 +1,278 @@
+[
+  {
+    "lesson_1": {
+      "lesson": 1,
+      "title": "Foundations of English Essay Writing",
+      "topic": "Basic Structure, Grammar, and Clarity",
+      "learning_objectives": [
+        "Understand the basic structure of a five-paragraph essay (introduction, body, conclusion).",
+        "Develop clear topic sentences and concluding statements.",
+        "Apply fundamental grammar rules to produce coherent sentences."
+      ],
+      "introduction": [
+        "In this lesson, you’ll learn the essential building blocks of an English essay.",
+        "Focus on clarity, correct grammar, and coherent paragraph structure.",
+        "Each scenario encourages you to practice fundamental writing skills."
+      ],
+      "scenarios": [
+        {
+          "id": 1,
+          "title": "Describing Your Favorite Hobby",
+          "description": "Write a short essay about your favorite hobby, focusing on clarity and simple structure."
+        },
+        {
+          "id": 2,
+          "title": "A Memorable Childhood Experience",
+          "description": "Compose a five-paragraph essay describing a specific memory from your childhood."
+        },
+        {
+          "id": 3,
+          "title": "Benefits of Learning English",
+          "description": "Explain why learning English is important in today’s world, using basic grammar and transitions."
+        },
+        {
+          "id": 4,
+          "title": "Daily Routine Reflection",
+          "description": "Describe your typical day, highlighting how you manage your time and tasks effectively."
+        },
+        {
+          "id": 5,
+          "title": "Favorite Book Summary",
+          "description": "Choose a book you love and write a concise overview of its plot, characters, and themes."
+        },
+        {
+          "id": 6,
+          "title": "Visiting a New Place",
+          "description": "Imagine you have visited a new city. Write an essay detailing your impressions and experiences."
+        },
+        {
+          "id": 7,
+          "title": "Why Exercise Matters",
+          "description": "Discuss the importance of regular exercise for physical and mental health in a structured essay."
+        },
+        {
+          "id": 8,
+          "title": "Describing a Family Tradition",
+          "description": "Write an essay about a unique family tradition, focusing on clear organization and details."
+        },
+        {
+          "id": 9,
+          "title": "Healthy Eating Basics",
+          "description": "Explain the basics of a balanced diet, ensuring your paragraphs flow logically."
+        },
+        {
+          "id": 10,
+          "title": "The Best Advice You’ve Ever Received",
+          "description": "Reflect on a piece of advice that changed your perspective, forming clear introductory and concluding statements."
+        }
+      ]
+    }
+  },
+  {
+    "lesson_2": {
+      "lesson": 2,
+      "title": "Intermediate Essay Development",
+      "topic": "Thesis Statements, Supporting Evidence, and Cohesion",
+      "learning_objectives": [
+        "Craft strong thesis statements that guide the essay.",
+        "Use relevant examples or evidence to support main points.",
+        "Maintain logical flow and clear transitions between paragraphs."
+      ],
+      "introduction": [
+        "In this lesson, you’ll focus on developing more structured arguments.",
+        "Practice using evidence and examples to reinforce your viewpoint.",
+        "Each scenario targets an intermediate level prompt to refine your composition skills."
+      ],
+      "scenarios": [
+        {
+          "id": 1,
+          "title": "Social Media’s Impact on Communication",
+          "description": "Argue whether social media improves or hinders interpersonal communication, including counterexamples."
+        },
+        {
+          "id": 2,
+          "title": "Protecting the Environment",
+          "description": "Discuss practical steps individuals can take to reduce their carbon footprint, citing relevant examples."
+        },
+        {
+          "id": 3,
+          "title": "Balancing Work and Personal Life",
+          "description": "Explain why achieving a work-life balance is challenging today and propose possible solutions."
+        },
+        {
+          "id": 4,
+          "title": "Technology in Education",
+          "description": "Examine how devices like tablets or laptops in the classroom affect student learning, referencing studies or experiences."
+        },
+        {
+          "id": 5,
+          "title": "Challenges of Urban Living",
+          "description": "Analyze common difficulties faced by people living in large cities, offering potential coping strategies."
+        },
+        {
+          "id": 6,
+          "title": "Online Learning vs. Traditional Classes",
+          "description": "Compare and contrast these two learning modes, developing a cohesive argument on which is more effective."
+        },
+        {
+          "id": 7,
+          "title": "Importance of Cultural Exchange",
+          "description": "Explain how traveling or studying abroad influences one’s perspective, supporting with real or hypothetical examples."
+        },
+        {
+          "id": 8,
+          "title": "Benefits of Lifelong Learning",
+          "description": "Write an essay about why continuing education is essential, incorporating relevant data or personal anecdotes."
+        },
+        {
+          "id": 9,
+          "title": "Media Influence on Body Image",
+          "description": "Discuss how media representations can shape people's perceptions of body image, providing evidence-based arguments."
+        },
+        {
+          "id": 10,
+          "title": "Debating the Role of Homework",
+          "description": "Present arguments for and against homework in schools, concluding with your reasoned stance on the issue."
+        }
+      ]
+    }
+  },
+  {
+    "lesson_3": {
+      "lesson": 3,
+      "title": "Advanced Writing Techniques",
+      "topic": "Persuasive, Analytical, and Critical Essays",
+      "learning_objectives": [
+        "Construct persuasive arguments with clear, well-developed counterarguments.",
+        "Analyze texts or issues critically and present coherent conclusions.",
+        "Incorporate advanced grammar and varied sentence structures."
+      ],
+      "introduction": [
+        "Take your writing to a higher level with advanced essay strategies.",
+        "Learn how to tackle complex prompts requiring persuasive or analytical approaches.",
+        "Each scenario will help you hone critical thinking and refine your style."
+      ],
+      "scenarios": [
+        {
+          "id": 1,
+          "title": "Analyzing a Literary Character",
+          "description": "Pick a character from literature and write a critical essay on their motivations, relationships, and growth."
+        },
+        {
+          "id": 2,
+          "title": "Persuasive Speech: Funding the Arts",
+          "description": "Argue why governments should (or should not) increase public funding for arts and culture, addressing counterarguments."
+        },
+        {
+          "id": 3,
+          "title": "Critical Review of a Documentary",
+          "description": "Watch a documentary and critique its main argument, use of evidence, and overall impact."
+        },
+        {
+          "id": 4,
+          "title": "Debating Genetically Modified Foods",
+          "description": "Construct a balanced essay exploring the benefits and risks of GMOs, analyzing scientific studies or expert opinions."
+        },
+        {
+          "id": 5,
+          "title": "Satire in Modern Media",
+          "description": "Explain how satire is used to comment on social or political issues, providing specific examples of its effectiveness."
+        },
+        {
+          "id": 6,
+          "title": "Evaluating a Historical Event",
+          "description": "Choose a significant historical event and critically evaluate its causes, outcomes, and long-term effects."
+        },
+        {
+          "id": 7,
+          "title": "The Ethics of Artificial Intelligence",
+          "description": "Discuss moral concerns around AI’s rapid advancement, including privacy, autonomy, and accountability."
+        },
+        {
+          "id": 8,
+          "title": "Critiquing a Research Study",
+          "description": "Analyze the methodology, results, and limitations of a study on a topic that interests you, forming a structured critique."
+        },
+        {
+          "id": 9,
+          "title": "Persuasive Essay: Climate Action",
+          "description": "Create a well-reasoned argument for more aggressive climate policies, addressing likely objections."
+        },
+        {
+          "id": 10,
+          "title": "Gender Roles in Advertising",
+          "description": "Examine how ads portray men and women, discussing whether these representations reinforce stereotypes."
+        }
+      ]
+    }
+  },
+  {
+    "lesson_4": {
+      "lesson": 4,
+      "title": "Creative and Specialized Essays",
+      "topic": "Narrative, Reflective, and Literature-Based Writing",
+      "learning_objectives": [
+        "Compose narrative essays with vivid descriptions and personal reflections.",
+        "Develop reflective pieces that explore personal growth or learning experiences.",
+        "Analyze literary works with in-depth discussion and interpretative commentary."
+      ],
+      "introduction": [
+        "Explore more creative and specialized essay forms, going beyond standard academic structure.",
+        "This lesson covers narrative, reflective, and literature-based writing prompts.",
+        "Each scenario encourages creativity, introspection, and detailed analysis."
+      ],
+      "scenarios": [
+        {
+          "id": 1,
+          "title": "A Transformative Travel Experience",
+          "description": "Write a personal narrative about a trip that changed your perspective, focusing on sensory details and emotion."
+        },
+        {
+          "id": 2,
+          "title": "Reflecting on a Personal Failure",
+          "description": "Discuss a time you failed at something important, exploring how it shaped your mindset or future behavior."
+        },
+        {
+          "id": 3,
+          "title": "Writing a Short Story",
+          "description": "Craft a fictional narrative with a clear conflict, climax, and resolution, integrating descriptive language."
+        },
+        {
+          "id": 4,
+          "title": "Character Analysis from a Novel",
+          "description": "Select a protagonist or antagonist from a novel and delve into their personality, motivations, and key conflicts."
+        },
+        {
+          "id": 5,
+          "title": "A Day in the Life of Your Future Self",
+          "description": "Imagine yourself 10 years from now. Write a reflective piece describing your routine, aspirations, and accomplishments."
+        },
+        {
+          "id": 6,
+          "title": "Narrative Essay on Cultural Heritage",
+          "description": "Share a personal story that highlights your cultural background, focusing on traditions, values, and identity."
+        },
+        {
+          "id": 7,
+          "title": "Literary Comparison",
+          "description": "Compare two short stories or poems with similar themes, exploring how each author conveys their message."
+        },
+        {
+          "id": 8,
+          "title": "Writing from Another’s Perspective",
+          "description": "Adopt the viewpoint of a historical figure or fictional character and narrate a key event from their eyes."
+        },
+        {
+          "id": 9,
+          "title": "Reflecting on an Inspiring Mentor",
+          "description": "Write an essay describing someone who guided or inspired you, examining how they influenced your growth."
+        },
+        {
+          "id": 10,
+          "title": "Personal Manifesto",
+          "description": "Create a reflective piece outlining your core beliefs, personal goals, and how you plan to achieve them."
+        }
+      ]
+    }
+  }
+]
